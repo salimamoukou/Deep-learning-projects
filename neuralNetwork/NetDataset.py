@@ -3,8 +3,8 @@ import pandas as pd
 import os
 import tqdm as tqdm
 #
-trainingSetPath = 'data/training'
-patientList = os.listdir(trainingSetPath)
+# trainingSetPath = 'data/training'
+# patientList = os.listdir(trainingSetPath)
 
 
 def preprocessing_data(file):
