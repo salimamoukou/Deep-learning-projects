@@ -26,7 +26,7 @@ def preprocessing_data(file):
 patient_total = None
 label_total = None
 i = 0
-a = 0
+a = 10
 # for patientPath in patientList:
 #     patient, patientLabel = code(patientPath)
 #     a = np.maximum(a, patientLabel.shape[0])
