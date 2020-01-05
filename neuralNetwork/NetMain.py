@@ -4,7 +4,7 @@ import numpy as np
 # ""test""
 
 
-
+data = np.load('data.npz')
 feat = data_load['features']
 label = data_load['label']
 
