@@ -1,9 +1,9 @@
 from Network import *
 from NetworkArchi import *
 import numpy as np
+# ""test""
 
 
-data_load = np.load('data.npz', allow_pickle=True)
 
 feat = data_load['features']
 label = data_load['label']
