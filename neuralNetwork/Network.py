@@ -11,7 +11,8 @@ class Network:
     def __init__(self, archi):
         self._archi = archi
         self._batchSize = 32
-        self._epoch = 1
+        #test
+        self._epoch = 10
         self._optimizer = None
         self._learningRate = 0.01
         self._featuresDims = 8
